@@ -79,6 +79,7 @@ body {
   font-size: medium;
   display: flex;
   justify-content: center;
+  cursor: pointer;
   align-items: center;
 }
 
@@ -102,6 +103,7 @@ body {
   width: 100%;
   min-height: 10vh;
   display: flex;
+  cursor: pointer;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
@@ -145,14 +147,16 @@ body {
 
 .radio {
   background-color: rgb(255, 107, 130);
-  height: 10px;
-  width: 10px;
+  height: 20px;
+  width: 20px;
   border-radius: 100%;
   padding: 2px;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 2px solid rgb(255, 107, 130);
+  background-clip: content-box;
 }
 
 .coupon_right input {
@@ -179,6 +183,7 @@ body {
   padding: 1.4rem 0px;
   border: 2px solid rgb(255, 107, 130);
   background-color: #fff9fa;
+  cursor: pointer;
 }
 
 .dropdownDetails {
